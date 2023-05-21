@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Juwon1405
+- 👋 Hi, I’m Juwon Bang(方ジュウォン)[@Juwon1405](https://juwon1405.github.io)
 - ✨ My dream is to become a star of security. [@DoubleS1405](https://github.com/DoubleS1405)
 - 👀 I’m interested in Blueteam/DFIR, AI
 - 🌱 I’m currently learning Japanese
