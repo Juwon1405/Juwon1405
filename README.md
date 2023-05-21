@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Juwon Bang(方ジュウォン) [@Juwon1405](https://juwon1405.github.io)
-- ✨ We are studying information security together. [@DoubleS1405](https://doubles1405.gitbook.io)
+- ✨ We are studying information security together [@DoubleS1405](https://doubles1405.gitbook.io)
 - 👀 I’m interested in Blueteam/DFIR, AI
 - 🌱 I’m currently learning Japanese
 - 💞️ I’m looking to collaborate on Intelligence DFIR Project using ChatGPT
