@@ -2,7 +2,7 @@
 - ✨ My dream is to become a star of security. [@DoubleS1405](https://github.com/DoubleS1405)
 - 👀 I’m interested in Blueteam/DFIR, AI
 - 🌱 I’m currently learning Japanese
-- 💞️ I’m looking to collaborate on DFIR Project using AI (Client: Swift, Server: Python)
+- 💞️ I’m looking to collaborate on Intelligence DFIR Project using AI(ChatGPT)
 <!-- - 📫 More about me [My Gitpage](https://juwon1405.github.io) 
 -->
 
