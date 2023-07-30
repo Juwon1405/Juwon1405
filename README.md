@@ -7,8 +7,9 @@
 
 ### List of My Starred Repositories
 
-- [Tools & Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Awesome spears, shields and analyzers 
-- [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops): A collection of research repositories related to OpenAI, ChatGPT, and DevSecOps. 
 - [BlueTeam](https://github.com/stars/Juwon1405/lists/blueteam): A collection of resources related to cybersecurity Blue Teams, which are relevant to Security Operations Centers (SOCs) in practical settings. 
+- [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops): A collection of research repositories related to OpenAI, ChatGPT, and DevSecOps. 
 - [DFIR](https://github.com/stars/Juwon1405/lists/dfir): A collection of resources related to Digital Forensics and Incident Response (DFIR), which are relevant to the tasks required in CSIRT 
 - [Private repositories](https://github.com/stars/Juwon1405/lists/private-repositories): Coding in the dark and raising children in the sun
+- [Tools & Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Awesome spears, shields and analyzers 
+
