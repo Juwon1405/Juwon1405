@@ -1,12 +1,14 @@
-- 👋 Hi, I’m Juwon Bang(方ジュウォン) [@Juwon1405](https://juwon1405.github.io)
-- ✨ We are studying information security together [@DoubleS1405](https://doubles1405.gitbook.io)
-- 👀 I’m interested in Blueteam/DFIR, AI
-- 🌱 I’m currently learning Japanese
-- 💞️ I’m looking to collaborate on Intelligence DFIR Project using ChatGPT
-<!-- - 📫 More about me [My Gitpage](https://juwon1405.github.io) 
--->
+## Guarding Cyberspace, Nurturing the Future: A Security Expert's Journey
 
-<!---
-Juwon1405/Juwon1405 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m Juwon Bang(方ジュウォン) @Juwon1405
+- 🧑‍🤝‍🧑 My team and I are studying information security together @DoubleS1405
+- 👀 I’m interested in Blueteam/DFIR/DevSecOps, and looking to collaborate on any study Project!
+- 💕 I'm immersed in CSIRT operations in Japan, alongside my wife and our daughter. And yes, I'm an utterly doting dad!
+
+### List of My Starred Repositories
+
+- [Tools & Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Awesome spears, shields and analyzers 
+- [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops): A collection of research repositories related to OpenAI, ChatGPT, and DevSecOps. 
+- [BlueTeam](https://github.com/stars/Juwon1405/lists/blueteam): A collection of resources related to cybersecurity Blue Teams, which are relevant to Security Operations Centers (SOCs) in practical settings. 
+- [DFIR](https://github.com/stars/Juwon1405/lists/dfir): A collection of resources related to Digital Forensics and Incident Response (DFIR), which are relevant to the tasks required in CSIRT 
+- [Private repositories](https://github.com/stars/Juwon1405/lists/private-repositories): Coding in the dark and raising children in the sun
