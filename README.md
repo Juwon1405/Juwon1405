@@ -5,7 +5,7 @@
 - 👀 I’m interested in Blueteam/DFIR/DevSecOps, and looking to collaborate on any study Project!
 - 💕 I'm immersed in CSIRT operations in Japan, alongside my wife and our daughter. And yes, I'm an utterly doting dad!
 
-### List of My Starred Repositories
+### List of My ✨[Starred Repositories](https://github.com/Juwon1405?tab=stars)
 
 - [BlueTeam](https://github.com/stars/Juwon1405/lists/blueteam): Cybersecurity resources for practical Security Operations Centers.
 - [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops):  Research repositories related to OpenAI, ChatGPT, and DevSecOps.
