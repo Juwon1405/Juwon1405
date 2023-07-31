@@ -1,7 +1,7 @@
 ## Guarding Cyberspace, Nurturing the Future: A Security Expert's Journey
 
-- 👋 Hi, I’m Juwon Bang(方ジュウォン) @Juwon1405
-- 🧑‍🤝‍🧑 My team and I are studying information security together @DoubleS1405
+- 👋 Hi, I’m Juwon Bang(方ジュウォン) [@Juwon1405](https://juwon1405.github.io)
+- 🧑‍🤝‍🧑 My team and I are studying information security together [@DoubleS1405](https://doubles1405.gitbook.io)
 - 👀 I’m interested in Blueteam/DFIR/DevSecOps, and looking to collaborate on any study Project!
 - 💕 I'm immersed in CSIRT operations in Japan, alongside my wife and our daughter. And yes, I'm an utterly doting dad!
 
