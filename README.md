@@ -9,7 +9,7 @@
 
 - [DFIR](https://github.com/stars/Juwon1405/lists/dfir): Resources for Digital Forensics and Incident Response in CSIRT.
 - [BlueTeam](https://github.com/stars/Juwon1405/lists/blueteam): Cybersecurity resources for practical Security Operations Centers.
-- [Tools & Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Awesome Essential spears, shields and analyzers.
+- [Tools&Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Awesome Essential spears, shields and analyzers.
 - [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops):  Research repositories related to OpenAI, ChatGPT, and DevSecOps.
-- [Private repositories](https://github.com/stars/Juwon1405/lists/private-repositories): Collection of private or ongoing projects.
+- [Private-Repositories](https://github.com/stars/Juwon1405/lists/private-repositories): Collection of private or ongoing projects.
 
