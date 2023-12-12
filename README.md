@@ -12,6 +12,7 @@
 - [Tools&Tips](https://github.com/stars/Juwon1405/lists/tools-tips): Essential tools, shields, and analyzers for cybersecurity.
 - [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops): Research repositories focused on OpenAI, ChatGPT, and DevSecOps.
 - [Private-Repositories](https://github.com/stars/Juwon1405/lists/private-repositories): An assembly of private or ongoing projects.
+- [Gist](https://gist.github.com/Juwon1405): A collection of code snippets in a Gist.
 
 ---
 
@@ -29,3 +30,4 @@
 - [Tools&Tips](https://github.com/stars/Juwon1405/lists/tools-tips): サイバーセキュリティのための必要不可欠なツール、シールド、アナライザ。
 - [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops): OpenAI、ChatGPT、DevSecOpsに関する研究リポジトリ。
 - [Private-Repositories](https://github.com/stars/Juwon1405/lists/private-repositories): プライベートまたは進行中のプロジェクトのコレクション。
+- [Gist](https://gist.github.com/Juwon1405): Gist 内のコード スニペットのコレクション
