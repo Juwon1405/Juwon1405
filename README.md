@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:juwon1405@doubles1405.com">
+  <a href="mailto:juwon1405.jp@doubles1405.com">
     <img src="https://img.shields.io/badge/contact-juwon1405%40doubles1405.com-555?style=flat-square&logo=gmail&logoColor=white" alt="email"></a>
 </p>
 
