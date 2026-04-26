@@ -1,4 +1,4 @@
-<h1 align="center">Juwon Bang &nbsp;<sub><sup>(優心)</sup></sub></h1>
+<h1 align="center">Juwon Bang &nbsp;<sub<sup>(優心)</sup</sub></h1>
 <p align="center">
   <em>DFIR &amp; Detection Engineering · Tokyo, Japan</em>
 </p>
