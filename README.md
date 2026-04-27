@@ -1,4 +1,4 @@
-<h1 align="center">Juwon Bang &nbsp;<sub<sup>(優心)</sup</sub></h1>
+<h1 align="center">Juwon Bang &nbsp;<sub><sup>(優心)</sup></sub></h1>
 <p align="center">
   <em>DFIR &amp; Detection Engineering · Tokyo, Japan</em>
 </p>
@@ -37,13 +37,50 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
   <img src="https://img.shields.io/badge/MCP-1A73E8?style=flat-square">
 </p>
 
-### 📌 Featured
+### 📌 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
 
 [![yushin-dfir](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-dfir&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-dfir)
 
-> **YuShin (優心)** &mdash; an autonomous DFIR agent that thinks like a
-> senior analyst. Architecture-first, not prompt-first.
-> Submission to [SANS FIND EVIL! 2026](https://findevil.devpost.com/).
+> **Autonomous DFIR Agent** &mdash; senior-analyst reasoning encoded as
+> architecture, not prompt. Submission to
+> [SANS FIND EVIL! 2026](https://findevil.devpost.com/).
+
+</td>
+<td width="50%">
+
+[![yushin-mac-triage](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-triage&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-triage)
+
+> **macOS DFIR Collector** &mdash; single-file, zero-dep, modular triage
+> with selective module execution and supply-chain IOC detection
+> (litellm PyPI 2026-03 + generic).
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+[![yushin-mac-analyzer](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-analyzer&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-analyzer)
+
+> **macOS DFIR Web Analyzer** &mdash; Flask app ingesting collector ZIPs
+> &amp; disk images, parsing 30+ artifact types, generating PDF reports
+> with Ollama / OpenAI-assisted analysis.
+
+</td>
+<td width="50%">
+
+<br>
+
+🧪 **More in progress** &mdash; agentic forensic loops, detection-as-code
+templates, and macOS-specific IOC sweeps. Watch this space, or pick a
+star to follow along.
+
+</td>
+</tr>
+</table>
 
 ### 📚 Curated lists
 
