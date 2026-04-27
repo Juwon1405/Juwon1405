@@ -73,11 +73,12 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </td>
 <td width="50%">
 
-<br>
+[![yushin-gendfir-rag](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-gendfir-rag&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-gendfir-rag)
 
-🧪 **More in progress** &mdash; agentic forensic loops, detection-as-code
-templates, and macOS-specific IOC sweeps. Watch this space, or pick a
-star to follow along.
+> **GenDFIR RAG Pipeline** &mdash; unofficial Python replication of
+> Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR
+> cyber-incident timeline analysis. Equation-by-equation, fully
+> unit-tested.
 
 </td>
 </tr>
