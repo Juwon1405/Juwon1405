@@ -52,22 +52,23 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </td>
 <td width="50%">
 
-[![yushin-mac-triage](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-triage&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-triage)
+[![yushin-mac-artifact-collector](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-artifact-collector&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-artifact-collector)
 
-> **macOS DFIR Collector** &mdash; single-file, zero-dep, modular triage
-> with selective module execution and supply-chain IOC detection
-> (litellm PyPI 2026-03 + generic).
+> **macOS DFIR Artifact Collector** &mdash; single-file, zero-dep,
+> modular collection script with selective module execution and
+> supply-chain IOC sweeps (litellm PyPI 2026-03 + generic).
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-[![yushin-mac-analyzer](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-analyzer&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-analyzer)
+[![yushin-mac-forensics-platform](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-forensics-platform&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-forensics-platform)
 
-> **macOS DFIR Web Analyzer** &mdash; Flask app ingesting collector ZIPs
-> &amp; disk images, parsing 30+ artifact types, generating PDF reports
-> with Ollama / OpenAI-assisted analysis.
+> **macOS DFIR Forensics Platform** &mdash; Flask-based platform that
+> ingests collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG), parses
+> 30+ artifact categories, and produces searchable evidence + PDF
+> incident reports with optional Ollama / OpenAI analysis.
 
 </td>
 <td width="50%">
