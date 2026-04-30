@@ -88,11 +88,11 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </td>
 <td width="50%">
 
-<br>
+[![GitNote](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=GitNote&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/GitNote)
 
-🧪 **More in progress** &mdash; Sigma rule synthesis playground,
-detection-as-code templates, and macOS-specific IOC sweeps.
-[Star me](https://github.com/Juwon1405) to follow along.
+> **GitNote** &mdash; curated personal knowledge base in InfoSec &amp;
+> computer science. A long-running collection of notes, references,
+> and code snippets from years of DFIR / detection engineering work.
 
 </td>
 </tr>
