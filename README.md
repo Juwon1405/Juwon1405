@@ -39,18 +39,22 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 ### 📌 Featured Projects
 
+#### 🎯 Agentic-DART &nbsp;<sub><sup>*flagship — SANS FIND EVIL! 2026*</sup></sub>
+
+[![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
+
+> Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
+> not prompt-first. **31 typed forensic functions** across **11 / 12 MITRE ATT&amp;CK
+> tactics**, **17 / 17 tests passing** on a fresh clone. Read-only MCP boundary
+> makes destructive ops impossible by construction. Starts as agentic DFIR;
+> designed to expand toward agentic SOC and beyond.
+
+<sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
+
+#### Other projects
+
 <table>
 <tr>
-<td width="50%">
-
-[![agentic-dart](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=agentic-dart&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/agentic-dart)
-
-> **Agentic-DART** &mdash; autonomous detection &amp; response agent.
-> Architecture-first, not prompt-first. Starts as agentic DFIR;
-> designed to expand toward agentic SOC and beyond. Submission to
-> [SANS FIND EVIL! 2026](https://findevil.devpost.com/).
-
-</td>
 <td width="50%">
 
 [![yushin-mac-artifact-collector](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-artifact-collector&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-artifact-collector)
@@ -60,8 +64,6 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > supply-chain IOC sweeps (litellm PyPI 2026-03 + generic).
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 [![yushin-mac-forensics-platform](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-forensics-platform&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-forensics-platform)
@@ -72,6 +74,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > incident reports with optional Ollama / OpenAI analysis.
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 [![yushin-gendfir-rag](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-gendfir-rag&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-gendfir-rag)
@@ -80,6 +84,15 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR
 > cyber-incident timeline analysis. Equation-by-equation, fully
 > unit-tested.
+
+</td>
+<td width="50%">
+
+<br>
+
+🧪 **More in progress** &mdash; Sigma rule synthesis playground,
+detection-as-code templates, and macOS-specific IOC sweeps.
+[Star me](https://github.com/Juwon1405) to follow along.
 
 </td>
 </tr>
