@@ -43,10 +43,11 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 <tr>
 <td width="50%">
 
-[![yushin-dfir](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-dfir&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-dfir)
+[![agentic-dart](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=agentic-dart&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/agentic-dart)
 
-> **Autonomous DFIR Agent** &mdash; senior-analyst reasoning encoded as
-> architecture, not prompt. Submission to
+> **Agentic-DART** &mdash; autonomous detection &amp; response agent.
+> Architecture-first, not prompt-first. Starts as agentic DFIR;
+> designed to expand toward agentic SOC and beyond. Submission to
 > [SANS FIND EVIL! 2026](https://findevil.devpost.com/).
 
 </td>
