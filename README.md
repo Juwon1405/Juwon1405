@@ -44,8 +44,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 [![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
-> not prompt-first. **31 typed forensic functions** across **11 / 12 MITRE ATT&amp;CK
-> tactics**, **17 / 17 tests passing** on a fresh clone. Read-only MCP boundary
+> not prompt-first. **35 typed forensic functions** across **11 / 12 MITRE ATT&amp;CK
+> tactics**, **20 / 20 tests passing** on a fresh clone. Read-only MCP boundary
 > makes destructive ops impossible by construction. Starts as agentic DFIR;
 > designed to expand toward agentic SOC and beyond.
 
