@@ -45,9 +45,11 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
 > not prompt-first. **35 typed forensic functions** across **11 / 12 MITRE ATT&amp;CK
-> tactics**, **20 / 20 tests passing** on a fresh clone. Read-only MCP boundary
-> makes destructive ops impossible by construction. Starts as agentic DFIR;
-> designed to expand toward agentic SOC and beyond.
+> tactics**, **20 / 20 tests passing** on a fresh clone, **1135-line senior-analyst
+> playbook v3** synthesizing Mandiant + Bianco + Diamond + Palantir ADS + MaGMa
+> UCF + TaHiTI hunt cycle (42 references). Read-only MCP boundary makes
+> destructive ops impossible by construction. Starts as agentic DFIR; designed
+> to expand toward agentic SOC and beyond.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
@@ -100,6 +102,7 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 ### 📚 Curated lists
 
+- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **204 starred repos categorized into 12 buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically.
 - [**DFIR**](https://github.com/stars/Juwon1405/lists/dfir) &mdash; Digital Forensics &amp; Incident Response
 - [**BlueTeam**](https://github.com/stars/Juwon1405/lists/blueteam) &mdash; Defensive operations &amp; SOC
 - [**Tools &amp; Tips**](https://github.com/stars/Juwon1405/lists/tools-tips) &mdash; Analysis utilities
