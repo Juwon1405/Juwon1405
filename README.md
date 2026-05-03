@@ -44,12 +44,14 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 [![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
-> not prompt-first. **35 typed forensic functions** across **11 / 12 MITRE ATT&amp;CK
-> tactics**, **20 / 20 tests passing** on a fresh clone, **1135-line senior-analyst
-> playbook v3** synthesizing Mandiant + Bianco + Diamond + Palantir ADS + MaGMa
-> UCF + TaHiTI hunt cycle (42 references). Read-only MCP boundary makes
-> destructive ops impossible by construction. Starts as agentic DFIR; designed
-> to expand toward agentic SOC and beyond.
+> not prompt-first. **60 typed forensic MCP tools** (35 native + 25 SIFT
+> Workstation adapters) across **11 / 12 MITRE ATT&amp;CK tactics**,
+> **31 / 31 tests passing** on a fresh clone (CI green on Python
+> 3.10/3.11/3.12/3.13), **1182-line senior-analyst playbook v3**
+> synthesizing Mandiant + Bianco + Diamond + Palantir ADS + MaGMa UCF +
+> TaHiTI hunt cycle (42 references). Read-only MCP boundary makes
+> destructive ops impossible by construction. Starts as agentic DFIR;
+> designed to expand toward agentic SOC and beyond.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
@@ -57,18 +59,30 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-[![yushin-mac-artifact-collector](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-artifact-collector&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-artifact-collector)
+#### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)
+
+<a href="https://github.com/Juwon1405/yushin-mac-artifact-collector">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-artifact-collector?style=flat-square&color=f5b400" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-artifact-collector?style=flat-square&color=1A73E8" alt="last commit">
+<img src="https://img.shields.io/badge/lang-shell-4EAA25?style=flat-square" alt="shell">
+</a>
 
 > **macOS DFIR Artifact Collector** &mdash; single-file, zero-dep,
 > modular collection script with selective module execution and
 > supply-chain IOC sweeps (litellm PyPI 2026-03 + generic).
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-[![yushin-mac-forensics-platform](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-mac-forensics-platform&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-mac-forensics-platform)
+#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)
+
+<a href="https://github.com/Juwon1405/yushin-mac-forensics-platform">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-forensics-platform?style=flat-square&color=f5b400" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-forensics-platform?style=flat-square&color=1A73E8" alt="last commit">
+<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
+</a>
 
 > **macOS DFIR Forensics Platform** &mdash; Flask-based platform that
 > ingests collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG), parses
@@ -78,9 +92,15 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-[![yushin-gendfir-rag](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=yushin-gendfir-rag&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/yushin-gendfir-rag)
+#### 🧪 [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag)
+
+<a href="https://github.com/Juwon1405/yushin-gendfir-rag">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-gendfir-rag?style=flat-square&color=f5b400" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-gendfir-rag?style=flat-square&color=1A73E8" alt="last commit">
+<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
+</a>
 
 > **GenDFIR RAG Pipeline** &mdash; unofficial Python replication of
 > Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR
@@ -88,9 +108,15 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > unit-tested.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-[![GitNote](https://github-readme-stats.vercel.app/api/pin/?username=Juwon1405&repo=GitNote&theme=tokyonight&hide_border=true)](https://github.com/Juwon1405/GitNote)
+#### 📓 [GitNote](https://github.com/Juwon1405/GitNote)
+
+<a href="https://github.com/Juwon1405/GitNote">
+<img src="https://img.shields.io/github/stars/Juwon1405/GitNote?style=flat-square&color=f5b400" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/GitNote?style=flat-square&color=1A73E8" alt="last commit">
+<img src="https://img.shields.io/badge/lang-markdown-555555?style=flat-square" alt="markdown">
+</a>
 
 > **GitNote** &mdash; curated personal knowledge base in InfoSec &amp;
 > computer science. A long-running collection of notes, references,
@@ -116,10 +142,19 @@ Research collaboration · CTF · CSIRT exchange · Open-source security tooling
 ---
 
 <p align="center">
-  <a href="https://github.com/Juwon1405">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=Juwon1405&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true">
+  <a href="https://github.com/Juwon1405?tab=repositories">
+    <img src="https://img.shields.io/github/followers/Juwon1405?style=flat-square&label=Followers&color=1A73E8" alt="followers">
   </a>
-  <a href="https://github.com/Juwon1405">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juwon1405&layout=compact&theme=tokyonight&hide_border=true&langs_count=8">
+  &nbsp;
+  <a href="https://github.com/Juwon1405?tab=stars">
+    <img src="https://img.shields.io/github/stars/Juwon1405?style=flat-square&label=Stars&color=f5b400" alt="stars">
+  </a>
+  &nbsp;
+  <a href="https://github.com/Juwon1405/agentic-dart">
+    <img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart?style=flat-square&label=agentic-dart&color=DD2C00" alt="agentic-dart stars">
+  </a>
+  &nbsp;
+  <a href="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml">
+    <img src="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml/badge.svg?branch=main" alt="agentic-dart CI">
   </a>
 </p>
