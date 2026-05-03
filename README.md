@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="mailto:juwon1405.jp@doubles1405.com">
-    <img src="https://img.shields.io/badge/contact-juwon1405.jp%40doubles1405.com-555?style=flat-square&logo=gmail&logoColor=white" alt="email"></a>
+  <a href="mailto:juwon1405.jp@gmail.com">
+    <img src="https://img.shields.io/badge/contact-juwon1405.jp%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white" alt="email"></a>
 </p>
 
 ---
