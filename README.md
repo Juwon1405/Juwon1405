@@ -45,8 +45,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
 > not prompt-first. **60 typed forensic MCP tools** (35 native + 25 SIFT
-> Workstation adapters) across **10 / 12 MITRE ATT&amp;CK enterprise tactics**,
-> **31 / 31 tests passing** on a fresh clone (CI green on Python
+> Workstation adapters) across **11 / 12 MITRE ATT&amp;CK enterprise tactics**
+> (TA0011 C2 partial), **31 / 31 tests passing** on a fresh clone (CI green on Python
 > 3.10/3.11/3.12/3.13), **1182-line senior-analyst playbook v3**
 > synthesizing Mandiant + Bianco + Diamond + Palantir ADS + MaGMa UCF +
 > TaHiTI hunt cycle (42 references). Read-only MCP boundary makes
