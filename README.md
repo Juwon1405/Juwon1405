@@ -45,13 +45,19 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
 > not prompt-first. **60 typed forensic MCP tools** (35 native + 25 SIFT
-> Workstation adapters) across **11 / 12 MITRE ATT&amp;CK enterprise tactics**
-> (TA0011 C2 partial), **31 / 31 tests passing** on a fresh clone (CI green on Python
-> 3.10/3.11/3.12/3.13), **1182-line senior-analyst playbook v3**
-> synthesizing Mandiant + Bianco + Diamond + Palantir ADS + MaGMa UCF +
-> TaHiTI hunt cycle (42 references). Read-only MCP boundary makes
-> destructive ops impossible by construction. Starts as agentic DFIR;
-> designed to expand toward agentic SOC and beyond.
+> Workstation adapters) across **10 / 12 MITRE ATT&amp;CK enterprise tactics**
+> (TA0009 Collection and TA0011 C2 are Phase 2 roadmap), **31 / 31 tests passing**
+> on a fresh clone (CI green on Python 3.10/3.11/3.12/3.13), **1182-line
+> senior-analyst playbook v3** synthesizing Mandiant + Bianco + Diamond +
+> Palantir ADS + MaGMa UCF + TaHiTI hunt cycle (42 references).
+> Read-only MCP boundary makes destructive ops impossible by construction.
+> Two evidence variants ship — deterministic reference (CI baseline) and
+> noise-injected realistic (~1:30 IOC:benign, web log 1027 lines, security
+> events 516, unix auth 517) — both score the same recall=1.0 / FPR=0.0 /
+> hallucination=0 ground truth, ruling out small-input over-fit. Third-party
+> dataset benchmarking (NIST CFReDS / Ali Hadi / DFRWS / BOTS) tracked as
+> Phase 2 (issue #47). Starts as agentic DFIR; designed to expand toward
+> agentic SOC and beyond.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
