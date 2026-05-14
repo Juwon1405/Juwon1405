@@ -73,7 +73,7 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 <img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=f5b400" alt="stars">
 <img src="https://img.shields.io/github/last-commit/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=1A73E8" alt="last commit">
 <img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
-<img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="apache-2.0">
+<img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT">
 </a>
 
 > **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
