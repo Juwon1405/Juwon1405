@@ -144,6 +144,14 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 Unofficial Python replication of Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR cyber-incident timeline analysis. The work in this repository served as a foundation that informed the design of [agentic-dart](https://github.com/Juwon1405/agentic-dart), which supersedes it with agentic (rather than pure RAG) reasoning and a hardened MCP surface. Kept public as a reference artifact.
 
+#### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector) &nbsp;<sub><sup>*archived*</sup></sub>
+
+Single-file bash DFIR artifact collector for macOS hosts where Velociraptor is not an option. Originator of the supply-chain IOC sweep patterns (litellm PyPI 2026-03, npm typosquat detection) now ported and generalized into [agentic-dart](https://github.com/Juwon1405/agentic-dart). Kept public as a supply-chain reference.
+
+#### 🍎 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*archived*</sup></sub>
+
+Flask-based platform that ingested collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG), parsed 30+ artifact categories, and produced searchable evidence + PDF incident reports. Analysis layer superseded by [agentic-dart](https://github.com/Juwon1405/agentic-dart); planned revival as Agentic-DART web UI in a future roadmap phase.
+
 </details>
 
 ### 📖 Published Work
@@ -166,7 +174,7 @@ Unofficial Python replication of Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM
 
 ### 📚 Curated lists
 
-- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **~70 starred repos categorized into 12 buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically after curation passes.
+- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **Starred repos categorized into curated buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically after curation passes.
 - [**DFIR**](https://github.com/stars/Juwon1405/lists/dfir) &mdash; Digital Forensics &amp; Incident Response
 - [**BlueTeam**](https://github.com/stars/Juwon1405/lists/blueteam) &mdash; Defensive operations &amp; SOC
 - [**Tools &amp; Tips**](https://github.com/stars/Juwon1405/lists/tools-tips) &mdash; Analysis utilities
