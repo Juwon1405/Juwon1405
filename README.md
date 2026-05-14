@@ -53,8 +53,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > Read-only MCP boundary makes destructive ops impossible by construction.
 > Three evaluation tiers: synthetic reference (recall=1.0), noise-injected
 > realistic at ~1:30 IOC:benign (recall=1.0), and **NIST CFReDS Hacking
-> Case** (community-trusted external benchmark) — v0.5.4 scores 0.50/0.80
-> strict/lenient on 10 sampled NIST findings, up from v0.5.3's 0.10/0.40,
+> Case** (community-trusted external benchmark) — v0.6.0 scores 0.50/0.80
+> strict/lenient on 10 sampled NIST findings, up from v0.5.3's 0.10/0.40 (supply-chain sweeps + collector adapter added in v0.6.0),
 > after `parse_registry_hive` (issue #52) shipped. Remaining CFReDS gaps
 > (#53/#54/#55) are explicit Phase 2 deliverables. Starts as agentic DFIR;
 > designed to expand toward agentic SOC and beyond.
