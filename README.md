@@ -67,6 +67,23 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 <tr>
 <td width="50%" valign="top">
 
+#### 🔌 [agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter) &nbsp;<sub><sup>*new — Phase 1.3*</sup></sub>
+
+<a href="https://github.com/Juwon1405/agentic-dart-collector-adapter">
+<img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=f5b400" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=1A73E8" alt="last commit">
+<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
+<img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="apache-2.0">
+</a>
+
+> **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
+> layer that converts Velociraptor offline-collector ZIPs into the
+> `evidence_root` layout Agentic-DART consumes. Seeds chain-of-custody
+> (manifest.json + SHA-256 index). 27/27 tests, CI Linux+macOS × py3.10/11/12.
+
+</td>
+<td width="50%" valign="top">
+
 #### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)
 
 <a href="https://github.com/Juwon1405/yushin-mac-artifact-collector">
@@ -76,13 +93,16 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </a>
 
 > **macOS DFIR Artifact Collector** &mdash; single-file, zero-dep,
-> modular collection script with selective module execution and
-> supply-chain IOC sweeps (litellm PyPI 2026-03 + generic).
+> modular collection script. Originated the supply-chain IOC sweeps
+> (litellm PyPI 2026-03 + generic) now ported into `agentic-dart` as
+> cross-platform MCP functions (`dart_mcp._v05_supply_chain`).
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)
+#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*to be repositioned*</sup></sub>
 
 <a href="https://github.com/Juwon1405/yushin-mac-forensics-platform">
 <img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-forensics-platform?style=flat-square&color=f5b400" alt="stars">
@@ -91,27 +111,10 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </a>
 
 > **macOS DFIR Forensics Platform** &mdash; Flask-based platform that
-> ingests collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG), parses
-> 30+ artifact categories, and produces searchable evidence + PDF
-> incident reports with optional Ollama / OpenAI analysis.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧪 [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag)
-
-<a href="https://github.com/Juwon1405/yushin-gendfir-rag">
-<img src="https://img.shields.io/github/stars/Juwon1405/yushin-gendfir-rag?style=flat-square&color=f5b400" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-gendfir-rag?style=flat-square&color=1A73E8" alt="last commit">
-<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
-</a>
-
-> **GenDFIR RAG Pipeline** &mdash; unofficial Python replication of
-> Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR
-> cyber-incident timeline analysis. Equation-by-equation, fully
-> unit-tested.
+> ingests collector ZIPs &amp; disk images, parses 30+ artifact
+> categories. Planned for repositioning as the Agentic-DART web UI
+> (read findings.json + audit.jsonl, render in browser) once SANS
+> submission window closes.
 
 </td>
 <td width="50%" valign="top">
@@ -131,6 +134,17 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 </td>
 </tr>
 </table>
+
+<details>
+<summary><sub>📦 Archived projects</sub></summary>
+
+<br/>
+
+#### 🧪 [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag) &nbsp;<sub><sup>*archived*</sup></sub>
+
+Unofficial Python replication of Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR cyber-incident timeline analysis. The work in this repository served as a foundation that informed the design of [agentic-dart](https://github.com/Juwon1405/agentic-dart), which supersedes it with agentic (rather than pure RAG) reasoning and a hardened MCP surface. Kept public as a reference artifact.
+
+</details>
 
 ### 📖 Published Work
 
@@ -152,7 +166,7 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 ### 📚 Curated lists
 
-- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **204 starred repos categorized into 12 buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically.
+- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **~70 starred repos categorized into 12 buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically after curation passes.
 - [**DFIR**](https://github.com/stars/Juwon1405/lists/dfir) &mdash; Digital Forensics &amp; Incident Response
 - [**BlueTeam**](https://github.com/stars/Juwon1405/lists/blueteam) &mdash; Defensive operations &amp; SOC
 - [**Tools &amp; Tips**](https://github.com/stars/Juwon1405/lists/tools-tips) &mdash; Analysis utilities
