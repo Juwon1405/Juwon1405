@@ -44,17 +44,19 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 [![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
 
 > Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
-> not prompt-first. **61 typed forensic MCP tools** (36 native + 25 SIFT
-> Workstation adapters) across **10 / 12 MITRE ATT&amp;CK enterprise tactics**
-> (TA0009 Collection and TA0011 C2 are Phase 2 roadmap), **43 / 43 tests passing**
-> on a fresh clone (CI green on Python 3.10/3.11/3.12/3.13), **1182-line
-> senior-analyst playbook v3** synthesizing Mandiant + Bianco + Diamond +
-> Palantir ADS + MaGMa UCF + TaHiTI hunt cycle (42 references).
+> not prompt-first. The agent is given a **typed, read-only MCP surface** —
+> native pure-Python forensic functions plus SIFT Workstation tool adapters
+> (Volatility 3, MFTECmd, EvtxECmd, PECmd, RECmd, AmcacheParser, YARA, Plaso) —
+> spanning broad MITRE ATT&amp;CK enterprise coverage. The full test suite passes
+> on a fresh clone (CI green on Python 3.10/3.11/3.12/3.13). The
+> senior-analyst playbook synthesizes Mandiant + Bianco + Diamond + Palantir ADS +
+> MaGMa UCF + TaHiTI hunt cycle, with every framework block citing its source.
 > Read-only MCP boundary makes destructive ops impossible by construction.
 > Three evaluation tiers: synthetic reference (recall=1.0), noise-injected
 > realistic at ~1:30 IOC:benign (recall=1.0), and **NIST CFReDS Hacking
 > Case** (community-trusted external benchmark) — v0.6.0 scores 0.50/0.80
-> strict/lenient on 10 sampled NIST findings, up from v0.5.3's 0.10/0.40 (supply-chain sweeps + collector adapter added in v0.6.0),
+> strict/lenient on 10 sampled NIST findings, up from v0.5.3's 0.10/0.40
+> (supply-chain sweeps + collector adapter added in v0.6.0),
 > after `parse_registry_hive` (issue #52) shipped. Remaining CFReDS gaps
 > (#53/#54/#55) are explicit Phase 2 deliverables. Starts as agentic DFIR;
 > designed to expand toward agentic SOC and beyond.
@@ -79,42 +81,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
 > layer that converts Velociraptor offline-collector ZIPs into the
 > `evidence_root` layout Agentic-DART consumes. Seeds chain-of-custody
-> (manifest.json + SHA-256 index). 27/27 tests, CI Linux+macOS × py3.10/11/12.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)
-
-<a href="https://github.com/Juwon1405/yushin-mac-artifact-collector">
-<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-artifact-collector?style=flat-square&color=f5b400" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-artifact-collector?style=flat-square&color=1A73E8" alt="last commit">
-<img src="https://img.shields.io/badge/lang-shell-4EAA25?style=flat-square" alt="shell">
-</a>
-
-> **macOS DFIR Artifact Collector** &mdash; single-file, zero-dep,
-> modular collection script. Originated the supply-chain IOC sweeps
-> (litellm PyPI 2026-03 + generic) now ported into `agentic-dart` as
-> cross-platform MCP functions (`dart_mcp._v05_supply_chain`).
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*to be repositioned*</sup></sub>
-
-<a href="https://github.com/Juwon1405/yushin-mac-forensics-platform">
-<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-forensics-platform?style=flat-square&color=f5b400" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-forensics-platform?style=flat-square&color=1A73E8" alt="last commit">
-<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
-</a>
-
-> **macOS DFIR Forensics Platform** &mdash; Flask-based platform that
-> ingests collector ZIPs &amp; disk images, parses 30+ artifact
-> categories. Planned for repositioning as the Agentic-DART web UI
-> (read findings.json + audit.jsonl, render in browser) once SANS
-> submission window closes.
+> (manifest.json + SHA-256 index). Full test suite passes on
+> CI Linux+macOS × py3.10/11/12.
 
 </td>
 <td width="50%" valign="top">
@@ -148,9 +116,9 @@ Unofficial Python replication of Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM
 
 Single-file bash DFIR artifact collector for macOS hosts where Velociraptor is not an option. Originator of the supply-chain IOC sweep patterns (litellm PyPI 2026-03, npm typosquat detection) now ported and generalized into [agentic-dart](https://github.com/Juwon1405/agentic-dart). Kept public as a supply-chain reference.
 
-#### 🍎 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*archived*</sup></sub>
+#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*archived*</sup></sub>
 
-Flask-based platform that ingested collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG), parsed 30+ artifact categories, and produced searchable evidence + PDF incident reports. Analysis layer superseded by [agentic-dart](https://github.com/Juwon1405/agentic-dart); planned revival as Agentic-DART web UI in a future roadmap phase.
+Flask-based macOS DFIR web platform that ingested collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG) and produced searchable evidence + PDF incident reports. Paused for post-SANS repositioning as the [agentic-dart](https://github.com/Juwon1405/agentic-dart) web UI &mdash; reading `findings.json` + `audit.jsonl` from an Agentic-DART run and rendering them in the browser.
 
 </details>
 
