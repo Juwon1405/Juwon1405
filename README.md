@@ -52,10 +52,10 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > senior-analyst playbook synthesizes Mandiant + Bianco + Diamond + Palantir ADS +
 > MaGMa UCF + TaHiTI hunt cycle, with every framework block citing its source.
 > Read-only MCP boundary makes destructive ops impossible by construction.
-> v0.7.0 ships **11 case studies / 99 ground-truth findings** across two
+> v0.7.1 ships **11 case studies / 99 ground-truth findings** across two
 > evaluation tiers: Layer 1 (8 synthetic, production-noise-injected cases,
 > recall=1.0) and Layer 2 (3 external community-verified benchmarks — NIST
-> CFReDS, Ali Hadi, Digital Corpora M57). New in v0.7.0: **case-11
+> CFReDS, Ali Hadi, Digital Corpora M57). New in v0.7.0–v0.7.1: **case-11
 > supply-chain → ADCS ESC8 → DCSync → Golden Ticket** (the SolarWinds-era
 > attack class), plus every bundled evidence file enriched to native
 > forensic-tool dump fidelity (EvtxECmd / Zeek conn.log / MFTECmd / PECmd /
