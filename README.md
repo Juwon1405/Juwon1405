@@ -52,14 +52,16 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > senior-analyst playbook synthesizes Mandiant + Bianco + Diamond + Palantir ADS +
 > MaGMa UCF + TaHiTI hunt cycle, with every framework block citing its source.
 > Read-only MCP boundary makes destructive ops impossible by construction.
-> Three evaluation tiers: synthetic reference (recall=1.0), noise-injected
-> realistic at ~1:30 IOC:benign (recall=1.0), and **NIST CFReDS Hacking
-> Case** (community-trusted external benchmark) — v0.6.0 scores 0.50/0.80
-> strict/lenient on 10 sampled NIST findings, up from v0.5.3's 0.10/0.40
-> (supply-chain sweeps + collector adapter added in v0.6.0),
-> after `parse_registry_hive` (issue #52) shipped. Remaining CFReDS gaps
-> (#53/#54/#55) are explicit Phase 2 deliverables. Starts as agentic DFIR;
-> designed to expand toward agentic SOC and beyond.
+> v0.7.0 ships **11 case studies / 99 ground-truth findings** across two
+> evaluation tiers: Layer 1 (8 synthetic, production-noise-injected cases,
+> recall=1.0) and Layer 2 (3 external community-verified benchmarks — NIST
+> CFReDS, Ali Hadi, Digital Corpora M57). New in v0.7.0: **case-11
+> supply-chain → ADCS ESC8 → DCSync → Golden Ticket** (the SolarWinds-era
+> attack class), plus every bundled evidence file enriched to native
+> forensic-tool dump fidelity (EvtxECmd / Zeek conn.log / MFTECmd / PECmd /
+> SBECmd / RECmd / Hindsight / systemd-journald / auditd / FSEventsParser /
+> macOS `log show`). Starts as agentic DFIR; designed to expand toward
+> agentic SOC and beyond.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
