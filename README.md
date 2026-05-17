@@ -43,25 +43,11 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 [![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
 
-> Autonomous DFIR agent that thinks like a senior analyst. Architecture-first,
-> not prompt-first. The agent is given a **typed, read-only MCP surface** —
-> native pure-Python forensic functions plus SIFT Workstation tool adapters
-> (Volatility 3, MFTECmd, EvtxECmd, PECmd, RECmd, AmcacheParser, YARA, Plaso) —
-> spanning broad MITRE ATT&amp;CK enterprise coverage. The full test suite passes
-> on a fresh clone (CI green on Python 3.10/3.11/3.12/3.13). The
-> senior-analyst playbook synthesizes Mandiant + Bianco + Diamond + Palantir ADS +
-> MaGMa UCF + TaHiTI hunt cycle, with every framework block citing its source.
-> Read-only MCP boundary makes destructive ops impossible by construction.
-> v0.7.1 ships **11 case studies / 99 ground-truth findings** across two
-> evaluation tiers: Layer 1 (8 synthetic, production-noise-injected cases,
-> recall=1.0) and Layer 2 (3 external community-verified benchmarks — NIST
-> CFReDS, Ali Hadi, Digital Corpora M57). New in v0.7.0–v0.7.1: **case-11
-> supply-chain → ADCS ESC8 → DCSync → Golden Ticket** (the SolarWinds-era
-> attack class), plus every bundled evidence file enriched to native
-> forensic-tool dump fidelity (EvtxECmd / Zeek conn.log / MFTECmd / PECmd /
-> SBECmd / RECmd / Hindsight / systemd-journald / auditd / FSEventsParser /
-> macOS `log show`). Starts as agentic DFIR; designed to expand toward
-> agentic SOC and beyond.
+> Autonomous DFIR agent. Architecture-first, not prompt-first. Read-only MCP
+> surface (native pure-Python + SIFT adapters) makes destructive ops impossible
+> by construction. v0.7.1 — 11 case studies, 99 ground-truth findings, Layer 1
+> synthetic + Layer 2 external benchmarks (NIST CFReDS / Ali Hadi / Digital
+> Corpora M57). SANS FIND EVIL! 2026 entry.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
