@@ -45,7 +45,7 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 > Autonomous DFIR agent. Architecture-first, not prompt-first. Read-only MCP
 > surface (native pure-Python + SIFT adapters) makes destructive ops impossible
-> by construction. v0.7.1 — 11 case studies, 99 ground-truth findings, Layer 1
+> by construction. v1.0.0 — 11 case studies, 99 ground-truth findings, Layer 1
 > synthetic + Layer 2 external benchmarks (NIST CFReDS / Ali Hadi / Digital
 > Corpora M57). SANS FIND EVIL! 2026 entry.
 
