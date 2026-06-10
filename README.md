@@ -45,9 +45,10 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 
 > Autonomous DFIR agent. Architecture-first, not prompt-first. Read-only MCP
 > surface (native pure-Python + SIFT adapters) makes destructive ops impossible
-> by construction. v1.0.0 — 11 case studies, 99 ground-truth findings, Layer 1
-> synthetic + Layer 2 external benchmarks (NIST CFReDS / Ali Hadi / Digital
-> Corpora M57). SANS FIND EVIL! 2026 entry.
+> by construction. v1.0.1 — 72 typed read-only MCP tools, 119-test suite,
+> 11 case studies, and 99 ground-truth findings. External case-study slots
+> include NIST CFReDS, Ali Hadi, and Digital Corpora M57. SANS FIND EVIL! 2026
+> entry.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
 
@@ -69,8 +70,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 > **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
 > layer that converts Velociraptor offline-collector ZIPs into the
 > `evidence_root` layout Agentic-DART consumes. Seeds chain-of-custody
-> (manifest.json + SHA-256 index). Full test suite passes on
-> CI Linux+macOS × py3.10/11/12.
+> (manifest.json 1.2 + SHA-256 index + source-member provenance) and prevents
+> flat-layout basename collisions from overwriting evidence.
 
 </td>
 <td width="50%" valign="top">
