@@ -3,7 +3,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-    <img alt="Bang Juwon — DFIR &amp; Detection Engineering, Tokyo" src="./assets/banner-light.svg" width="100%">
+    <img alt="Juwon Bang — DFIR &amp; Detection Engineering, Tokyo" src="./assets/banner-light.svg" width="100%">
   </picture>
 </p>
 
@@ -155,4 +155,4 @@ Research collaboration &middot; CTF &middot; CSIRT exchange &middot; Open-source
   <a href="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml"><img src="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml/badge.svg?branch=main" alt="agentic-dart CI"></a>
 </p>
 
-<p align="center"><sub><em>方ジュウォン &middot; 優心 &middot; YuShin</em></sub></p>
+<p align="center"><sub><em>Juwon Bang &middot; 방주원 &middot; 方ジュウォン &middot; 優心 (YuShin)</em></sub></p>
