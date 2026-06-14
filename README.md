@@ -155,4 +155,4 @@ Research collaboration &middot; CTF &middot; CSIRT exchange &middot; Open-source
   <a href="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml"><img src="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml/badge.svg?branch=main" alt="agentic-dart CI"></a>
 </p>
 
-<p align="center"><sub><em>Juwon Bang &middot; 방주원 &middot; 方ジュウォン &middot; 優心 (YuShin)</em></sub></p>
+<p align="center"><sub><em>Juwon Bang &middot; 방주원 &middot; 優心 (YuShin)</em></sub></p>
