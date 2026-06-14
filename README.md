@@ -1,43 +1,58 @@
-<h1 align="center">Juwon Bang &nbsp;<sub><sup>(優心)</sup></sub></h1>
+<!-- Profile banner — adapts to the viewer's light/dark theme -->
 <p align="center">
-  <em>DFIR &amp; Detection Engineering · Tokyo, Japan</em>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+    <img alt="Bang Juwon — DFIR &amp; Detection Engineering, Tokyo" src="./assets/banner-light.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="mailto:juwon1405.jp@gmail.com">
-    <img src="https://img.shields.io/badge/contact-juwon1405.jp%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white" alt="email"></a>
+  <a href="https://juwon1405.github.io/"><img src="https://img.shields.io/badge/Website-juwon1405.github.io-0d0d0e?style=flat-square&labelColor=0d0d0e&color=b8311f" alt="website"></a>
+  &nbsp;
+  <a href="mailto:juwon1405.jp@gmail.com"><img src="https://img.shields.io/badge/Email-juwon1405.jp-1c1c20?style=flat-square&logo=gmail&logoColor=e2ddd2&labelColor=1c1c20" alt="email"></a>
+  &nbsp;
+  <a href="https://www.youtube.com/c/DoubleS1405"><img src="https://img.shields.io/badge/YouTube-DoubleS1405-1c1c20?style=flat-square&logo=youtube&logoColor=e2ddd2&labelColor=1c1c20" alt="youtube"></a>
+  &nbsp;
+  <a href="https://github.com/Juwon1405?tab=followers"><img src="https://img.shields.io/github/followers/Juwon1405?style=flat-square&label=Follow&labelColor=1c1c20&color=8b6914" alt="followers"></a>
 </p>
 
 ---
 
 Building autonomous detection systems and architectural security guarantees.
 Currently exploring **agentic DFIR** &mdash; MCP-based forensic agents that
-encode the reasoning pattern of a senior analyst as architecture, not as a prompt.
+encode the reasoning pattern of a senior analyst as *architecture, not as a prompt*.
 
-### 🔍 Focus
+> The interesting problem in "AI for security" isn't the model &mdash; it's the
+> **architecture**: tool boundaries, deterministic correlation, evidence chains,
+> audit trails. Guardrails belong in the surface, not the system prompt.
 
-- **Digital Forensics &amp; Incident Response** &nbsp;·&nbsp; Windows / macOS / Linux
-- **Detection Engineering** &nbsp;·&nbsp; MITRE ATT&amp;CK coverage modeling, Sigma
+### &#9670;&nbsp; Focus
+
+- **Digital Forensics &amp; Incident Response** &nbsp;&middot;&nbsp; Windows / macOS / Linux
+- **Detection Engineering** &nbsp;&middot;&nbsp; MITRE ATT&amp;CK coverage modeling, Sigma
 - **DevSecOps &amp; Security Automation**
-- **Agentic AI for Security** &nbsp;·&nbsp; MCP, audit-chained reasoning loops
+- **Agentic AI for Security** &nbsp;&middot;&nbsp; MCP, audit-chained reasoning loops
 
-### 🛠️ Stack
+### &#9670;&nbsp; Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white">
-  <img src="https://img.shields.io/badge/Volatility-1F1F1F?style=flat-square">
-  <img src="https://img.shields.io/badge/SANS%20SIFT-CC0000?style=flat-square">
-  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-4F46E5?style=flat-square">
-  <img src="https://img.shields.io/badge/Sigma-FF6B35?style=flat-square">
-  <img src="https://img.shields.io/badge/MCP-1A73E8?style=flat-square">
+  <img src="https://img.shields.io/badge/Python-1c1c20?style=flat-square&logo=python&logoColor=4584b6&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/Bash-1c1c20?style=flat-square&logo=gnubash&logoColor=89e051&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/Linux-1c1c20?style=flat-square&logo=linux&logoColor=fcc624&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/macOS-1c1c20?style=flat-square&logo=apple&logoColor=e2ddd2&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/Docker-1c1c20?style=flat-square&logo=docker&logoColor=2496ed&labelColor=1c1c20">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/MCP-1c1c20?style=flat-square&logo=anthropic&logoColor=e2ddd2&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/Splunk-1c1c20?style=flat-square&logo=splunk&logoColor=ed0080&labelColor=1c1c20">
+  <img src="https://img.shields.io/badge/Volatility-1c1c20?style=flat-square&labelColor=1c1c20&color=1c1c20">
+  <img src="https://img.shields.io/badge/SANS%20SIFT-1c1c20?style=flat-square&labelColor=1c1c20&color=1c1c20">
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-1c1c20?style=flat-square&labelColor=1c1c20&color=1c1c20">
+  <img src="https://img.shields.io/badge/Sigma-1c1c20?style=flat-square&labelColor=1c1c20&color=1c1c20">
 </p>
 
-### 📌 Featured Projects
+### &#9670;&nbsp; Featured Projects
 
 #### 🎯 Agentic-DART &nbsp;<sub><sup>*flagship — SANS FIND EVIL! 2026*</sup></sub>
 
@@ -61,10 +76,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 #### 🔌 [agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter) &nbsp;<sub><sup>*new — Phase 1.3*</sup></sub>
 
 <a href="https://github.com/Juwon1405/agentic-dart-collector-adapter">
-<img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=f5b400" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/agentic-dart-collector-adapter?style=flat-square&color=1A73E8" alt="last commit">
-<img src="https://img.shields.io/badge/lang-python-3776AB?style=flat-square" alt="python">
-<img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT">
+<img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart-collector-adapter?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/agentic-dart-collector-adapter?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
 </a>
 
 > **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
@@ -79,9 +92,8 @@ encode the reasoning pattern of a senior analyst as architecture, not as a promp
 #### 📓 [GitNote](https://github.com/Juwon1405/GitNote)
 
 <a href="https://github.com/Juwon1405/GitNote">
-<img src="https://img.shields.io/github/stars/Juwon1405/GitNote?style=flat-square&color=f5b400" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/GitNote?style=flat-square&color=1A73E8" alt="last commit">
-<img src="https://img.shields.io/badge/lang-markdown-555555?style=flat-square" alt="markdown">
+<img src="https://img.shields.io/github/stars/Juwon1405/GitNote?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/GitNote?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
 </a>
 
 > **GitNote** &mdash; curated personal knowledge base in InfoSec &amp;
@@ -111,53 +123,36 @@ Flask-based macOS DFIR web platform that ingested collector ZIPs &amp; disk imag
 
 </details>
 
-### 📖 Published Work
+### &#9670;&nbsp; Published Work
 
 - ***Network Attack Packet Analysis for Security Practitioners* &nbsp;·&nbsp; 보안 실무자를 위한 네트워크 공격 패킷 분석** &nbsp;<sub>(co-author, lead)</sub><br>
   Freelec, 2019.11 &nbsp;·&nbsp; ISBN 9788965402589 &nbsp;·&nbsp; ~370 pp.<br>
   A practitioner's reference covering DDoS, web exploitation, malicious traffic, wireless intrusion, system exploitation, and large-volume packet analysis.<br>
   <sub>→ [Yes24](https://www.yes24.com/Product/Goods/83538369) &nbsp;·&nbsp; [Aladin](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=217703927) &nbsp;·&nbsp; [Kyobo](https://product.kyobobook.co.kr/detail/S000001019678) &nbsp;·&nbsp; [Google Books](https://books.google.com/books?id=SIrIywEACAAJ)</sub>
 
-### 🏆 Selected Recognition
+### &#9670;&nbsp; Selected Recognition
 
 - **🥇 Gold Prize**, 2017 Korea Open-Source Software Developer Contest &nbsp;<sub>(NIPA, *national OSS award*)</sub>
 - **📜 Patent (filed)**: *Security Event Correlation Analysis Apparatus* &nbsp;<sub>(2018, Netmarble Corp.)</sub>
 - **🎯 4th place**, 2017 CCE National Cyber Defense Competition &nbsp;<sub>(National Intelligence Service of Korea)</sub>
 - **🐛 Special Prize**, 2015 LINE Bug Bounty Program &nbsp;<sub>(LINE Corp.)</sub>
 
-### 🎥 Community
+### &#9670;&nbsp; Curated &amp; Community
 
-- **YouTube**: [DoubleS1405](https://www.youtube.com/c/DoubleS1405) &mdash; long-running Korean-language information-security lecture channel (2014&ndash;present)
+- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; starred repos sorted into curated buckets (DFIR / Blue Team / AI / Red Team / Malware / OSINT), regenerated after curation passes.
+- Lists: [DFIR](https://github.com/stars/Juwon1405/lists/dfir) &middot; [BlueTeam](https://github.com/stars/Juwon1405/lists/blueteam) &middot; [Tools &amp; Tips](https://github.com/stars/Juwon1405/lists/tools-tips) &middot; [DevSecOps](https://github.com/stars/Juwon1405/lists/devsecops) &middot; [Gist](https://gist.github.com/Juwon1405)
+- **YouTube** &mdash; [DoubleS1405](https://www.youtube.com/c/DoubleS1405), a long-running Korean-language information-security lecture channel (2014–present).
 
-### 📚 Curated lists
+### &#9670;&nbsp; Open to
 
-- [**Awesome Stars** (GitNote)](https://github.com/Juwon1405/GitNote/blob/main/Resources/awesome-stars.md) ⭐ &mdash; **Starred repos categorized into curated buckets** (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.), regenerated periodically after curation passes.
-- [**DFIR**](https://github.com/stars/Juwon1405/lists/dfir) &mdash; Digital Forensics &amp; Incident Response
-- [**BlueTeam**](https://github.com/stars/Juwon1405/lists/blueteam) &mdash; Defensive operations &amp; SOC
-- [**Tools &amp; Tips**](https://github.com/stars/Juwon1405/lists/tools-tips) &mdash; Analysis utilities
-- [**DevSecOps**](https://github.com/stars/Juwon1405/lists/devsecops) &mdash; Security automation &amp; AI
-- [**Gist**](https://gist.github.com/Juwon1405) &mdash; Code snippets
+Research collaboration &middot; CTF &middot; CSIRT exchange &middot; Open-source security tooling
 
-### 🤝 Open to
-
-Research collaboration · CTF · CSIRT exchange · Open-source security tooling
-
----
+<br/>
 
 <p align="center">
-  <a href="https://github.com/Juwon1405?tab=repositories">
-    <img src="https://img.shields.io/github/followers/Juwon1405?style=flat-square&label=Followers&color=1A73E8" alt="followers">
-  </a>
+  <a href="https://juwon1405.github.io/"><img src="https://img.shields.io/badge/%E5%84%AA%E5%BF%83-read%20the%20full%20site%20%E2%86%92-0d0d0e?style=flat-square&labelColor=0d0d0e&color=b8311f" alt="full site"></a>
   &nbsp;
-  <a href="https://github.com/Juwon1405?tab=stars">
-    <img src="https://img.shields.io/github/stars/Juwon1405?style=flat-square&label=Stars&color=f5b400" alt="stars">
-  </a>
-  &nbsp;
-  <a href="https://github.com/Juwon1405/agentic-dart">
-    <img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart?style=flat-square&label=agentic-dart&color=DD2C00" alt="agentic-dart stars">
-  </a>
-  &nbsp;
-  <a href="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml">
-    <img src="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml/badge.svg?branch=main" alt="agentic-dart CI">
-  </a>
+  <a href="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml"><img src="https://github.com/Juwon1405/agentic-dart/actions/workflows/ci.yml/badge.svg?branch=main" alt="agentic-dart CI"></a>
 </p>
+
+<p align="center"><sub><em>方ジュウォン &middot; 優心 &middot; YuShin</em></sub></p>

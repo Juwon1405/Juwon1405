@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Bang Juwon — DFIR and Detection Engineering, Tokyo">
+  <defs>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono  { font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
+      .sans  { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="1278" height="338" rx="18" fill="#f7f5f0" stroke="#e2ddd2" stroke-width="1.5"/>
+
+  <!-- eyebrow -->
+  <rect x="66" y="76" width="26" height="2" fill="#b8311f"/>
+  <text x="104" y="83" class="mono" font-size="13" letter-spacing="2.6" fill="#5a5a60">DIGITAL FORENSICS · INCIDENT RESPONSE · DETECTION ENGINEERING</text>
+
+  <!-- name -->
+  <text x="62" y="180" class="serif" font-size="84" font-style="italic" fill="#0d0d0e">Bang Juwon</text>
+
+  <!-- tagline -->
+  <text x="66" y="228" class="serif" font-size="20" font-style="italic" fill="#5a5a60">Over a decade finding evil — now building agents that find it autonomously.</text>
+
+  <!-- bottom meta -->
+  <rect x="66" y="280" width="1148" height="1" fill="#e2ddd2"/>
+  <text x="66" y="308" class="sans" font-size="13.5" letter-spacing="0.4" fill="#6a6a72">Tokyo, JP&#160;&#160;·&#160;&#160;Senior DFIR Specialist&#160;&#160;·&#160;&#160;방주원 · 優心&#160;&#160;·&#160;&#160;한국어 · 日本語 · English&#160;&#160;·&#160;&#160;since 2014</text>
+</svg>
