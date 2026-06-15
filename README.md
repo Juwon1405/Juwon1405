@@ -59,8 +59,9 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 
 > Autonomous DFIR agent. Architecture-first, not prompt-first. Read-only MCP
 > surface (native pure-Python + SIFT adapters) makes destructive ops impossible
-> by construction. v1.0.2 — 72 typed read-only MCP tools, full passing test suite,
-> 11 case studies, and 99 ground-truth findings. External case-study slots
+> by construction — a typed, read-only toolset built from native Python plus
+> SIFT adapters, a full passing test suite, and ground-truth-scored case studies
+> on real-world images. External case-study slots
 > include NIST CFReDS, Ali Hadi, and Digital Corpora M57. SANS FIND EVIL! 2026
 > entry.
 
