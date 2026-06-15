@@ -1,10 +1,9 @@
 <!-- Profile banner — adapts to the viewer's light/dark theme -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-    <img alt="Juwon Bang — DFIR &amp; Detection Engineering, Tokyo" src="./assets/banner-light.svg" width="100%">
-  </picture>
+  <!-- Single dark banner: GitHub's <picture> theme-swap follows the browser's
+       prefers-color-scheme, not the GitHub theme, so a light banner can land on
+       a dark profile (and look stark). A dark banner reads well on both. -->
+  <img alt="Juwon Bang — DFIR &amp; Detection Engineering, Tokyo" src="./assets/banner-dark.svg" width="100%">
 </p>
 
 <p align="center">
