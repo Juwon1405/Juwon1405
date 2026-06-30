@@ -32,6 +32,7 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 - **Detection Engineering** &nbsp;&middot;&nbsp; MITRE ATT&amp;CK coverage modeling, Sigma
 - **DevSecOps &amp; Security Automation**
 - **Agentic AI for Security** &nbsp;&middot;&nbsp; MCP, audit-chained reasoning loops
+- **Personal Agentic Systems** &nbsp;&middot;&nbsp; trading, market intelligence, operator dashboards
 
 ### &#9670;&nbsp; Stack
 
@@ -66,6 +67,37 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 > entry.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
+
+#### 🧭 Personal Agentic Systems &nbsp;<sub><sup>*private runtime · public showcase*</sup></sub>
+
+Not everything I build is DFIR. I also run personal agentic systems where the same engineering idea shows up in a different domain: deterministic runtime first, database-backed evidence, LLMs as supervisors, and dashboards/Telegram as the operator surface.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+##### [YuShin Trade Showcase](https://github.com/Juwon1405/yushin-trade-showcase)
+
+[![YuShin Trade live dashboard](https://raw.githubusercontent.com/Juwon1405/yushin-trade-showcase/main/assets/live-dashboard.png)](https://github.com/Juwon1405/yushin-trade-showcase)
+
+Private Bithumb KRW spot trading cockpit. The trading loop is deterministic; the LLM supervisor reviews evidence, rejected entries, market context, and policy history without becoming the runtime dependency.
+
+<sub>→ [dashboard](https://yushin.trade) · [showcase repo](https://github.com/Juwon1405/yushin-trade-showcase)</sub>
+
+</td>
+<td width="50%" valign="top">
+
+##### [YuShin Watch Showcase](https://github.com/Juwon1405/yushin-watch-showcase)
+
+[![YuShin Watch live dashboard](https://raw.githubusercontent.com/Juwon1405/yushin-watch-showcase/main/assets/live-dashboard.png)](https://github.com/Juwon1405/yushin-watch-showcase)
+
+Private luxury-watch market-intelligence monitor. It combines sold-price baselines, active listings, reference extraction, catalog context, and vision-assisted review while keeping purchase decisions human-controlled.
+
+<sub>→ [dashboard](https://yushin.watch) · [showcase repo](https://github.com/Juwon1405/yushin-watch-showcase)</sub>
+
+</td>
+</tr>
+</table>
 
 #### Other projects
 
