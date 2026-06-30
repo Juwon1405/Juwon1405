@@ -54,6 +54,17 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 
 ### &#9670;&nbsp; Featured Projects
 
+#### Pinned reading order
+
+| Order | Repository | Signal |
+| --- | --- | --- |
+| 1 | [agentic-dart](https://github.com/Juwon1405/agentic-dart) | Flagship agentic DFIR system. |
+| 2 | [yushin-trade-showcase](https://github.com/Juwon1405/yushin-trade-showcase) | Private autonomous trading cockpit, public operator surface. |
+| 3 | [yushin-watch-showcase](https://github.com/Juwon1405/yushin-watch-showcase) | Private market-intelligence monitor for luxury watches. |
+| 4 | [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) | Archived DFIR platform that shows product-shaped security tooling. |
+| 5 | [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector) | Archived single-file macOS collector and supply-chain IOC reference. |
+| 6 | [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag) | Archived DFIR RAG replication that preceded the agentic direction. |
+
 #### 🎯 Agentic-DART &nbsp;<sub><sup>*flagship — SANS FIND EVIL! 2026*</sup></sub>
 
 [![Agentic-DART](https://raw.githubusercontent.com/Juwon1405/agentic-dart/main/agentic-dart-hero.png)](https://github.com/Juwon1405/agentic-dart)
@@ -67,6 +78,8 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 > entry.
 
 <sub>→ [github.com/Juwon1405/agentic-dart](https://github.com/Juwon1405/agentic-dart) &nbsp;·&nbsp; [Submission to SANS FIND EVIL! 2026](https://findevil.devpost.com/) &nbsp;·&nbsp; MIT</sub>
+
+<sub>Supporting module: [agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter) converts Velociraptor offline-collector ZIPs into the `evidence_root` layout Agentic-DART consumes.</sub>
 
 #### 🧭 Personal Agentic Systems &nbsp;<sub><sup>*private runtime · public showcase*</sup></sub>
 
@@ -99,61 +112,72 @@ Private luxury-watch market-intelligence monitor. It combines sold-price baselin
 </tr>
 </table>
 
-#### Other projects
+#### 🧱 DFIR Reference Lineage &nbsp;<sub><sup>*public archive · still useful*</sup></sub>
+
+These repositories are archived intentionally. They show the earlier DFIR platform, collector, and research work that led into Agentic-DART.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🔌 [agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter) &nbsp;<sub><sup>*new — Phase 1.3*</sup></sub>
+##### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)
+
+<a href="https://github.com/Juwon1405/yushin-mac-forensics-platform">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-forensics-platform?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-forensics-platform?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
+</a>
+
+> **macOS DFIR web platform** — ingests collector ZIPs and disk images,
+> parses artifact categories, and produces searchable evidence plus PDF
+> incident reports. Archived as a reference for future Agentic-DART web/reporting
+> surfaces.
+
+</td>
+<td width="50%" valign="top">
+
+##### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)
+
+<a href="https://github.com/Juwon1405/yushin-mac-artifact-collector">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-mac-artifact-collector?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-mac-artifact-collector?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
+</a>
+
+> **Single-file macOS collector** — zero-dependency collection script with
+> selective module execution and supply-chain IOC sweeps. Archived as a portable
+> triage and collection reference.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+##### 🧪 [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag)
+
+<a href="https://github.com/Juwon1405/yushin-gendfir-rag">
+<img src="https://img.shields.io/github/stars/Juwon1405/yushin-gendfir-rag?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
+<img src="https://img.shields.io/github/last-commit/Juwon1405/yushin-gendfir-rag?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
+</a>
+
+> **DFIR RAG replication** — unofficial Python replication of Loumachi,
+> Ghanem &amp; Ferrag (2024), kept as the research artifact that preceded
+> the shift from pure RAG to agentic, tool-grounded DFIR.
+
+</td>
+<td width="50%" valign="top">
+
+##### 🔌 [agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter)
 
 <a href="https://github.com/Juwon1405/agentic-dart-collector-adapter">
 <img src="https://img.shields.io/github/stars/Juwon1405/agentic-dart-collector-adapter?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
 <img src="https://img.shields.io/github/last-commit/Juwon1405/agentic-dart-collector-adapter?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
 </a>
 
-> **Velociraptor → evidence_root adapter** &mdash; stdlib-only Python
-> layer that converts Velociraptor offline-collector ZIPs into the
-> `evidence_root` layout Agentic-DART consumes. Seeds chain-of-custody
-> (manifest.json 1.2 + SHA-256 index + source-member provenance) and prevents
-> flat-layout basename collisions from overwriting evidence.
-
-</td>
-<td width="50%" valign="top">
-
-#### 📓 [GitNote](https://github.com/Juwon1405/GitNote)
-
-<a href="https://github.com/Juwon1405/GitNote">
-<img src="https://img.shields.io/github/stars/Juwon1405/GitNote?style=flat-square&labelColor=1c1c20&color=8b6914" alt="stars">
-<img src="https://img.shields.io/github/last-commit/Juwon1405/GitNote?style=flat-square&labelColor=1c1c20&color=5a5a60" alt="last commit">
-</a>
-
-> **GitNote** &mdash; curated personal knowledge base in InfoSec &amp;
-> computer science. A long-running collection of notes, references,
-> and code snippets from years of DFIR / detection engineering work.
+> **Velociraptor to evidence_root adapter** — supporting module for
+> Agentic-DART. It belongs beside the flagship project rather than above it.
 
 </td>
 </tr>
 </table>
-
-<details>
-<summary><sub>📦 Archived projects</sub></summary>
-
-<br/>
-
-#### 🧪 [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag) &nbsp;<sub><sup>*archived*</sup></sub>
-
-Unofficial Python replication of Loumachi, Ghanem &amp; Ferrag (2024). RAG + LLM pipeline for DFIR cyber-incident timeline analysis. The work in this repository served as a foundation that informed the design of [agentic-dart](https://github.com/Juwon1405/agentic-dart), which supersedes it with agentic (rather than pure RAG) reasoning and a hardened MCP surface. Kept public as a reference artifact.
-
-#### 🍎 [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector) &nbsp;<sub><sup>*archived*</sup></sub>
-
-Single-file bash DFIR artifact collector for macOS hosts where Velociraptor is not an option. Originator of the supply-chain IOC sweep patterns (litellm PyPI 2026-03, npm typosquat detection) now ported and generalized into [agentic-dart](https://github.com/Juwon1405/agentic-dart). Kept public as a supply-chain reference.
-
-#### 🔬 [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) &nbsp;<sub><sup>*archived*</sup></sub>
-
-Flask-based macOS DFIR web platform that ingested collector ZIPs &amp; disk images (DD/RAW/E01/AFF/DMG) and produced searchable evidence + PDF incident reports. Paused for post-SANS repositioning as the [agentic-dart](https://github.com/Juwon1405/agentic-dart) web UI &mdash; reading `findings.json` + `audit.jsonl` from an Agentic-DART run and rendering them in the browser.
-
-</details>
 
 ### &#9670;&nbsp; Published Work
 
