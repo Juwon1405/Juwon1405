@@ -61,9 +61,9 @@ encode the reasoning pattern of a senior analyst as *architecture, not as a prom
 | 1 | [agentic-dart](https://github.com/Juwon1405/agentic-dart) | Flagship agentic DFIR system. |
 | 2 | [yushin-trade-showcase](https://github.com/Juwon1405/yushin-trade-showcase) | Private autonomous trading cockpit, public operator surface. |
 | 3 | [yushin-watch-showcase](https://github.com/Juwon1405/yushin-watch-showcase) | Private market-intelligence monitor for luxury watches. |
-| 4 | [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) | Archived DFIR platform that shows product-shaped security tooling. |
-| 5 | [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector) | Archived single-file macOS collector and supply-chain IOC reference. |
-| 6 | [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag) | Archived DFIR RAG replication that preceded the agentic direction. |
+| 4 | [yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform) | Archived DFIR intelligence platform with evidence review and reporting surfaces. |
+| 5 | [yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector) | Archived macOS triage collector and supply-chain IOC reference. |
+| 6 | [yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag) | Archived DFIR research replication behind the agentic intelligence direction. |
 
 #### 🎯 Agentic-DART &nbsp;<sub><sup>*flagship — SANS FIND EVIL! 2026*</sup></sub>
 
@@ -112,9 +112,9 @@ Private luxury-watch market-intelligence monitor. It combines sold-price baselin
 </tr>
 </table>
 
-#### 🧱 DFIR Reference Lineage &nbsp;<sub><sup>*public archive · still useful*</sup></sub>
+#### 🧠 DFIR Intelligence Systems &nbsp;<sub><sup>*public archive · still useful*</sup></sub>
 
-These repositories are archived intentionally. They show the earlier DFIR platform, collector, and research work that led into Agentic-DART.
+These repositories are archived intentionally. They show the security-intelligence building blocks behind Agentic-DART: collection, evidence normalization, analyst review, reporting, and research-backed retrieval.
 
 <table>
 <tr>
